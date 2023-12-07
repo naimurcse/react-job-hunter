@@ -6,18 +6,20 @@ const Header = () => {
       <>
          <header className="header">
             <div className="container">
-               <h2 className="header__logo">
-                  Job<span>Header</span>
-               </h2>
+               <div className="header__content">
+                  <h2 className="header__logo">
+                     Job<span className="secondary-heading">Header</span>
+                  </h2>
 
-               <nav>
-                  <Link to="/statistics">Statistics</Link>
-                  <Link to="/applied-jobs">Applied Jobs</Link>
-                  <Link to="/blog">Blog</Link>
-                  <Link to="/faq">FAQ</Link>
-               </nav>
+                  <nav className="header__nav">
+                     <Link to="/statistics">Statistics</Link>
+                     <Link to="/applied-jobs">Applied Jobs</Link>
+                     <Link to="/blog">Blog</Link>
+                     <Link to="/faq">FAQ</Link>
+                  </nav>
 
-               <button className="btn btn-primary">Star Applying</button>
+                  <button className="btn btn-large btn-primary">Star Applying</button>
+               </div>
             </div>
          </header>
       </>
