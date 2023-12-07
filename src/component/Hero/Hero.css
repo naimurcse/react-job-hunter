@@ -1,0 +1,22 @@
+.hero {
+   padding: 6.6rem 0;
+   background-image: url(../../assets/hero.png);
+   background-repeat: no-repeat;
+   background-position: right top;
+   background-color: var(--color-light-grey);
+}
+.hero__container {
+   display: grid;
+   grid-template-columns: 7fr 5fr;
+}
+
+.hero__container p {
+   font-size: 1.8rem;
+   font-weight: 500;
+   width: 75%;
+}
+.svg-icon {
+   width: 24px;
+   height: 24px;
+   color: blue;
+}
