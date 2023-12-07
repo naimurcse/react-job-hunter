@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 10px;
+}
+
+body {
+   font-family: "Manrope", sans-serif;
+}
+
+.container {
+   width: 1320px;
+   min-width: 90%;
+   margin: 0 auto;
+}
