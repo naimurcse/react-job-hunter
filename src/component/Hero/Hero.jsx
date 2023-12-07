@@ -1,4 +1,6 @@
 import "./Hero.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
    return (
@@ -10,24 +12,23 @@ const Hero = () => {
                      Discover Your Next Opportunity with{" "}
                      <span className="secondary-heading">JobHunter</span>
                   </h1>
-                  <p>
+                  <p className="hero__details">
                      Explore thousands of job opportunities with all the information you need. Its
                      your future. Come find it. Manage all your job application from start to
                      finish.
                   </p>
                   <button className="btn btn-large btn-primary">Get Started</button>
-                  <div>
-                     <h3>Trusted by leading brands and startups</h3>
-                     <div>
-                        <img src="../../assets/react.svg" alt="" />
-                        <img src="/assets/react.svg" alt="React Icon" />
 
+                  <h3>Trusted by leading brands and startups</h3>
+                  <div className="hero__brand">
+                     <p>
+                        <FontAwesomeIcon icon={faEnvelope} />
                         <span>Notion</span>
-                     </div>
-                     <div>
-                        <img src="../../assets/react.svg" alt="SVG Icon" className="svg-icon" />
-                        <span>Github</span>
-                     </div>
+                     </p>
+                     <p>
+                        <FontAwesomeIcon icon={faEnvelope} />
+                        <span>Notion</span>
+                     </p>
                   </div>
                </div>
             </div>

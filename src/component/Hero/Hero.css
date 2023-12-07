@@ -9,14 +9,34 @@
    display: grid;
    grid-template-columns: 7fr 5fr;
 }
+.hero__container h1 {
+   margin-bottom: 2.8rem;
+}
 
-.hero__container p {
-   font-size: 1.8rem;
-   font-weight: 500;
+.hero__details {
    width: 75%;
+   margin-bottom: 5.4rem;
+}
+.hero__container button {
+   margin-bottom: 6rem;
 }
 .svg-icon {
    width: 24px;
    height: 24px;
    color: blue;
+}
+.hero__container h3 {
+   font-size: 2rem;
+   font-weight: 500;
+   color: var(--dark-3);
+}
+.hero__brand {
+   display: flex;
+   gap: 3.4rem;
+   border: 1px solid red;
+}
+
+.hero__brand p {
+   border: 1px solid blue;
+   /* margin-bottom: 0; */
 }
