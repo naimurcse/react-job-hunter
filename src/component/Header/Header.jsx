@@ -18,7 +18,7 @@ const Header = () => {
                      <Link to="/faq">FAQ</Link>
                   </nav>
 
-                  <button className="btn btn-large btn-primary">Star Applying</button>
+                  <button className="btn btn-medium btn-primary">Star Applying</button>
                </div>
             </div>
          </header>
