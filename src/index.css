@@ -94,6 +94,18 @@ p {
    border-radius: 8px;
 }
 
+.btn-outline {
+   padding: 1rem 1.2rem;
+   border-radius: 4px;
+   font-size: 1.4rem;
+   font-weight: 800;
+}
+.btn-primary-outline {
+   background-color: var(--color-white);
+   color: var(--btn-primary);
+   border: 1px solid var(--btn-primary);
+}
+
 .btn-primary {
    background-color: var(--btn-primary);
    color: var(--color-white);

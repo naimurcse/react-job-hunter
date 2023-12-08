@@ -1,4 +1,7 @@
 import "./FeaturedJob.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot, faSackDollar } from "@fortawesome/free-solid-svg-icons";
+
 const FeaturedJob = ({ featuredJob }) => {
    const { id, img, designation, companyName, location, salary, icons, isFullTime, isRemote } =
       featuredJob;
@@ -7,13 +10,28 @@ const FeaturedJob = ({ featuredJob }) => {
          <img src={img} alt="" />
          <h2>{designation}</h2>
          <p>{companyName}</p>
-         {isRemote ? "Remote" : "Onsite"}
-         {isFullTime ? "Full Time" : "Part Time"}
+         {isRemote ? (
+            <button className="btn btn-outline btn-primary-outline">Remote</button>
+         ) : (
+            <button className="btn btn-outline btn-primary-outline">Onsite</button>
+         )}
+         {isFullTime ? (
+            <button className="btn btn-outline btn-primary-outline">Full Time</button>
+         ) : (
+            <button className="btn btn-outline btn-primary-outline">Part Time</button>
+         )}
          <div className="featured-job__info">
-            <p>{location}</p>
-            <p>Salary: {salary}</p>
+            <p>
+               <FontAwesomeIcon icon={faLocationDot} />
+               <span>{location}</span>
+            </p>
+            <p>
+               <FontAwesomeIcon icon={faSackDollar} />
+               <span>Salary: {salary}</span>
+            </p>
          </div>
-         <button className="btn btn-small btn-primary">View Details</button>
+
+         <button className="btn btn-medium btn-primary">View Details</button>
       </div>
    );
 };
