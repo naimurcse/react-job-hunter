@@ -2,6 +2,7 @@ import Header from "../Header/Header";
 import "./Main.css";
 import Hero from "./../Hero/Hero";
 import JobCategory from "../JobCategory/JobCategory";
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 
 const Main = () => {
    return (
@@ -9,6 +10,7 @@ const Main = () => {
          <Header></Header>
          <Hero></Hero>
          <JobCategory></JobCategory>
+         <FeaturedJobs></FeaturedJobs>
       </>
    );
 };

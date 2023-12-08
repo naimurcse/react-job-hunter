@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "img": "image1.jpg",
+    "designation": "Software Engineer",
+    "companyName": "TechCo",
+    "location": "San Francisco, CA",
+    "salary": "$100,000 - $120,000",
+    "icons": [
+      "icon1.png",
+      "icon2.png"
+    ],
+    "isRemote": true,
+    "isFullTime": true
+  },
+  {
+    "id": 2,
+    "img": "image2.jpg",
+    "designation": "UX/UI Designer",
+    "companyName": "Design Studio",
+    "location": "New York, NY",
+    "salary": "$80,000 - $100,000",
+    "icons": [
+      "icon3.png",
+      "icon4.png"
+    ],
+    "isRemote": false,
+    "isFullTime": true
+  },
+  {
+    "id": 3,
+    "img": "image3.jpg",
+    "designation": "Data Scientist",
+    "companyName": "Data Corp",
+    "location": "Austin, TX",
+    "salary": "$110,000 - $130,000",
+    "icons": [
+      "icon5.png",
+      "icon6.png"
+    ],
+    "isRemote": true,
+    "isFullTime": true
+  },
+  {
+    "id": 4,
+    "img": "path/to/image1.jpg",
+    "designation": "Software Engineer",
+    "companyName": "Tech Co.",
+    "location": "City A",
+    "salary": "$80,000",
+    "icons": [
+      "icon1.png",
+      "icon2.png"
+    ],
+    "isRemote": true,
+    "isFullTime": true
+  },
+  {
+    "id": 5,
+    "img": "path/to/image2.jpg",
+    "designation": "UX Designer",
+    "companyName": "Design Studio",
+    "location": "City B",
+    "salary": "$70,000",
+    "icons": [
+      "icon3.png",
+      "icon4.png"
+    ],
+    "isRemote": false,
+    "isFullTime": true
+  },
+  {
+    "id": 6,
+    "img": "path/to/image3.jpg",
+    "designation": "Data Analyst",
+    "companyName": "Data Corp.",
+    "location": "City C",
+    "salary": "$75,000",
+    "icons": [
+      "icon5.png",
+      "icon6.png"
+    ],
+    "isRemote": true,
+    "isFullTime": false
+  },
+  {
+    "id": 7,
+    "img": "path/to/image4.jpg",
+    "designation": "Marketing Specialist",
+    "companyName": "Ad Agency",
+    "location": "City D",
+    "salary": "$65,000",
+    "icons": [
+      "icon7.png",
+      "icon8.png"
+    ],
+    "isRemote": false,
+    "isFullTime": true
+  },
+  {
+    "id": 8,
+    "img": "path/to/image5.jpg",
+    "designation": "Network Engineer",
+    "companyName": "Networking Solutions",
+    "location": "City E",
+    "salary": "$85,000",
+    "icons": [
+      "icon9.png",
+      "icon10.png"
+    ],
+    "isRemote": true,
+    "isFullTime": true
+  }
+]

@@ -1,0 +1,6 @@
+.featured-job {
+   background-color: var(--color-white);
+   border: 1px solid var(--dark-6);
+   padding: 4rem;
+   border-radius: 1rem;
+}
