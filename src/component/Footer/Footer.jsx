@@ -93,6 +93,16 @@ const Footer = () => {
                   <li> +088 01760 00 00 00 </li>
                </ul>
             </div>
+            <div className="copy-right">
+               <p>
+                  @2023{" "}
+                  <strong style={{ color: "#fff" }}>
+                     Job<span className="secondary-heading-color">Hunter</span>
+                  </strong>
+                  . All Rights Reserved
+               </p>
+               <p>Powered by JobHunter</p>
+            </div>
          </div>
       </footer>
    );

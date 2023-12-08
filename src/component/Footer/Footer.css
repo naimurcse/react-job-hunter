@@ -27,13 +27,13 @@
    list-style-type: none;
 }
 .footer__container ul li {
-   color: #ffffff5a;
+   color: #ffffff69;
    font-size: 1.8rem;
    margin-bottom: 1.4rem;
 }
 .footer__container ul li a,
 .footer__container p {
-   color: #ffffff5a;
+   color: #ffffff69;
    text-decoration: none;
 }
 
@@ -59,4 +59,12 @@
 .footer__social-icons span:hover {
    color: var(--color-secondary);
    cursor: pointer;
+}
+.copy-right {
+   display: flex;
+   justify-content: space-between;
+}
+.copy-right p {
+   font-size: 1.4rem;
+   color: #ffffff69;
 }
