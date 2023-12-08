@@ -28,6 +28,9 @@ const FeaturedJobs = () => {
                   <FeaturedJob key={featuredJob.id} featuredJob={featuredJob}></FeaturedJob>
                ))}
             </div>
+            <div className="text-center">
+               <button className="btn btn-large btn-primary  text-center">See All Jobs</button>
+            </div>
          </div>
       </section>
    );
