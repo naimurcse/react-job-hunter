@@ -7,17 +7,17 @@
       "averageSalary": "$90,000",
       "jobSeekers": 8000
     },
-    "iconLink": "https://example.com/icons/software-development-icon.png"
+    "iconLink": "../src/assets/icons/software.png"
   },
   {
     "id": 2,
-    "categoryName": "Data Science",
+    "categoryName": "Creative Design",
     "statistics": {
       "jobOpenings": 800,
       "averageSalary": "$100,000",
       "jobSeekers": 5000
     },
-    "iconLink": "https://example.com/icons/data-science-icon.png"
+    "iconLink": "../src/assets/icons/design.png"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
       "averageSalary": "$70,000",
       "jobSeekers": 4000
     },
-    "iconLink": "https://example.com/icons/marketing-icon.png"
+    "iconLink": "../src/assets/icons/social-media 1.png"
   },
   {
     "id": 4,
@@ -37,6 +37,6 @@
       "averageSalary": "$85,000",
       "jobSeekers": 3000
     },
-    "iconLink": "https://example.com/icons/finance-icon.png"
+    "iconLink": "../src/assets/icons/finance.png"
   }
 ]

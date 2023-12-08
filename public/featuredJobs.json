@@ -6,10 +6,7 @@
     "companyName": "TechCo",
     "location": "San Francisco, CA",
     "salary": "$100,000 - $120,000",
-    "icons": [
-      "icon1.png",
-      "icon2.png"
-    ],
+    "logoLink":"https://images.squarespace-cdn.com/content/v1/60953d6145302f7f3f140c11/41f6899e-d863-4e41-9adb-73a8605c1dde/Techco+logo+final-01.png",
     "isRemote": true,
     "isFullTime": true
   },
@@ -17,13 +14,10 @@
     "id": 2,
     "img": "image2.jpg",
     "designation": "UX/UI Designer",
-    "companyName": "Design Studio",
+    "companyName": "Google",
     "location": "New York, NY",
     "salary": "$80,000 - $100,000",
-    "icons": [
-      "icon3.png",
-      "icon4.png"
-    ],
+    "logoLink":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png",
     "isRemote": false,
     "isFullTime": true
   },
@@ -34,10 +28,7 @@
     "companyName": "Data Corp",
     "location": "Austin, TX",
     "salary": "$110,000 - $130,000",
-    "icons": [
-      "icon5.png",
-      "icon6.png"
-    ],
+    "logoLink":"http://www.datacorp.net/images/logo.png",
     "isRemote": true,
     "isFullTime": true
   },
@@ -48,10 +39,7 @@
     "companyName": "Tech Co.",
     "location": "City A",
     "salary": "$80,000",
-    "icons": [
-      "icon1.png",
-      "icon2.png"
-    ],
+    "logoLink":"https://images.squarespace-cdn.com/content/v1/60953d6145302f7f3f140c11/41f6899e-d863-4e41-9adb-73a8605c1dde/Techco+logo+final-01.png",
     "isRemote": true,
     "isFullTime": true
   },
@@ -59,13 +47,10 @@
     "id": 5,
     "img": "path/to/image2.jpg",
     "designation": "UX Designer",
-    "companyName": "Design Studio",
-    "location": "City B",
+    "companyName": "Tushiba",
+    "location": "Chittagong, Bangladesh",
     "salary": "$70,000",
-    "icons": [
-      "icon3.png",
-      "icon4.png"
-    ],
+    "logoLink":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/TOSHIBA_Logo.png/1200px-TOSHIBA_Logo.png",
     "isRemote": false,
     "isFullTime": true
   },
@@ -73,13 +58,10 @@
     "id": 6,
     "img": "path/to/image3.jpg",
     "designation": "Data Analyst",
-    "companyName": "Data Corp.",
-    "location": "City C",
+    "companyName": "Intel.",
+    "location": "Dhaka, Bangladesh",
     "salary": "$75,000",
-    "icons": [
-      "icon5.png",
-      "icon6.png"
-    ],
+    "logoLink":"https://www.wermac.org/dewebsite/logo/intel/intel_logo.png",
     "isRemote": true,
     "isFullTime": false
   },
@@ -87,13 +69,10 @@
     "id": 7,
     "img": "path/to/image4.jpg",
     "designation": "Marketing Specialist",
-    "companyName": "Ad Agency",
+    "companyName": "Microsoft",
     "location": "City D",
     "salary": "$65,000",
-    "icons": [
-      "icon7.png",
-      "icon8.png"
-    ],
+     "logoLink":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/1024px-Microsoft_logo_%282012%29.svg.png",
     "isRemote": false,
     "isFullTime": true
   },
@@ -101,13 +80,10 @@
     "id": 8,
     "img": "path/to/image5.jpg",
     "designation": "Network Engineer",
-    "companyName": "Networking Solutions",
+    "companyName": "TESLA",
     "location": "City E",
     "salary": "$85,000",
-    "icons": [
-      "icon9.png",
-      "icon10.png"
-    ],
+    "logoLink":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcxalhPMlT7a62dhDBZrh_iYbdDliuUAhXJzHoEVhtJnTON1ivLR9bCueNDjDPdnjQXQ&usqp=CAU",
     "isRemote": true,
     "isFullTime": true
   }

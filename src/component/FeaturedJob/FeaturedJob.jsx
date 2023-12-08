@@ -3,11 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faSackDollar } from "@fortawesome/free-solid-svg-icons";
 
 const FeaturedJob = ({ featuredJob }) => {
-   const { id, img, designation, companyName, location, salary, icons, isFullTime, isRemote } =
+   const { id, img, designation, companyName, location, salary, logoLink, isFullTime, isRemote } =
       featuredJob;
    return (
       <div className="featured-job">
-         <img src={img} alt="" />
+         <img src={logoLink} alt="" />
 
          <div>
             <h2>{designation}</h2>
