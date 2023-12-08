@@ -1,0 +1,26 @@
+.job-category {
+   padding: 12rem 0;
+}
+.job-category-content {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2.5rem;
+   margin-top: 6rem;
+}
+.category {
+   flex-grow: 1;
+   /* border: 1px solid red; */
+   padding: 4rem;
+   background-color: var(--color-light-grey);
+}
+
+.category .icon-box {
+   width: 7rem;
+   height: 7rem;
+   margin-bottom: 3.2rem;
+   background-color: var(--color-dark-grey);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

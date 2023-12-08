@@ -10,7 +10,7 @@ const Hero = () => {
                <div>
                   <h1>
                      Discover Your Next Opportunity with{" "}
-                     <span className="secondary-heading">JobHunter</span>
+                     <span className="secondary-heading-color">JobHunter</span>
                   </h1>
                   <p className="hero__details">
                      Explore thousands of job opportunities with all the information you need. Its

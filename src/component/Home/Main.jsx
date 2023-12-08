@@ -1,12 +1,14 @@
-import { Outlet } from "react-router-dom";
 import Header from "../Header/Header";
 import "./Main.css";
+import Hero from "./../Hero/Hero";
+import JobCategory from "../JobCategory/JobCategory";
 
 const Main = () => {
    return (
       <>
          <Header></Header>
-         <Outlet></Outlet>
+         <Hero></Hero>
+         <JobCategory></JobCategory>
       </>
    );
 };
