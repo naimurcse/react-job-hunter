@@ -99,11 +99,16 @@ p {
    border-radius: 4px;
    font-size: 1.4rem;
    font-weight: 800;
+   transition: all 0.2s;
 }
 .btn-primary-outline {
    background-color: var(--color-white);
    color: var(--btn-primary);
    border: 1px solid var(--btn-primary);
+}
+.btn-primary-outline:hover {
+   color: var(--btn-primary-hover);
+   border: 1px solid var(--btn-primary-hover);
 }
 
 .btn-primary {
@@ -119,9 +124,15 @@ h1 {
    line-height: 100px;
 }
 h2 {
+   font-size: 2.4rem;
+   font-weight: 800;
 }
 h3 {
    font-size: 2rem;
    font-weight: 900;
    margin-bottom: 0.8rem;
+}
+
+.mr-20 {
+   margin-right: 2rem;
 }

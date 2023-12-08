@@ -3,4 +3,28 @@
    border: 1px solid var(--dark-6);
    padding: 4rem;
    border-radius: 1rem;
+
+   display: flex;
+   flex-flow: column;
+   align-items: flex-start;
+   gap: 2.8rem;
+}
+.featured-job__info {
+   display: flex;
+   gap: 2.5rem;
+   margin-top: 1.8rem;
+}
+.featured-job__info p {
+   color: var(--color-primary);
+   font-weight: 800;
+   font-size: 1.6rem;
+}
+.featured-job__info p span {
+   margin-left: 1rem;
+}
+.company-name {
+   margin-bottom: 1.8rem;
+   font-size: 20px;
+   font-weight: 500;
+   margin-top: 0.8rem;
 }
