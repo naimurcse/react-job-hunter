@@ -1,6 +1,6 @@
 import "./Hero.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Hero = () => {
    return (
@@ -22,12 +22,12 @@ const Hero = () => {
                   <h3>Trusted by leading brands and startups</h3>
                   <div className="hero__brand">
                      <p>
-                        <FontAwesomeIcon icon={faEnvelope} />
+                        <img src="./notion.png" alt="" type="png" />
                         <span>Notion</span>
                      </p>
                      <p>
-                        <FontAwesomeIcon icon={faEnvelope} />
-                        <span>Notion</span>
+                        <FontAwesomeIcon icon={faGithub} />
+                        <span>Github</span>
                      </p>
                   </div>
                </div>
