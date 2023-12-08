@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "categoryName": "Software Development",
+    "statistics": {
+      "jobOpenings": 1200,
+      "averageSalary": "$90,000",
+      "jobSeekers": 8000
+    },
+    "iconLink": "https://example.com/icons/software-development-icon.png"
+  },
+  {
+    "id": 2,
+    "categoryName": "Data Science",
+    "statistics": {
+      "jobOpenings": 800,
+      "averageSalary": "$100,000",
+      "jobSeekers": 5000
+    },
+    "iconLink": "https://example.com/icons/data-science-icon.png"
+  },
+  {
+    "id": 3,
+    "categoryName": "Marketing",
+    "statistics": {
+      "jobOpenings": 600,
+      "averageSalary": "$70,000",
+      "jobSeekers": 4000
+    },
+    "iconLink": "https://example.com/icons/marketing-icon.png"
+  },
+  {
+    "id": 4,
+    "categoryName": "Finance",
+    "statistics": {
+      "jobOpenings": 500,
+      "averageSalary": "$85,000",
+      "jobSeekers": 3000
+    },
+    "iconLink": "https://example.com/icons/finance-icon.png"
+  },
+  {
+    "id": 5,
+    "categoryName": "Healthcare",
+    "statistics": {
+      "jobOpenings": 700,
+      "averageSalary": "$80,000",
+      "jobSeekers": 4500
+    },
+    "iconLink": "https://example.com/icons/healthcare-icon.png"
+  }
+]

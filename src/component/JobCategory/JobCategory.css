@@ -9,7 +9,6 @@
 }
 .category {
    flex-grow: 1;
-   /* border: 1px solid red; */
    padding: 4rem;
    background-color: var(--color-light-grey);
 }

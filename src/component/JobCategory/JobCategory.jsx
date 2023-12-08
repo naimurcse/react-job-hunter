@@ -1,6 +1,17 @@
+import { useEffect } from "react";
 import "./JobCategory.css";
+import { useState } from "react";
 
 const JobCategory = () => {
+   const [categories, setCategories] = useState([]);
+   useEffect(() => {
+      fetch("categories.json")
+         .then((res) => res.json())
+         .then((data) => setCategories(data));
+   }, []);
+
+   console.log(categories);
+
    return (
       <section className="job-category">
          <div className="container">
