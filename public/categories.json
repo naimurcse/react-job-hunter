@@ -38,15 +38,5 @@
       "jobSeekers": 3000
     },
     "iconLink": "https://example.com/icons/finance-icon.png"
-  },
-  {
-    "id": 5,
-    "categoryName": "Healthcare",
-    "statistics": {
-      "jobOpenings": 700,
-      "averageSalary": "$80,000",
-      "jobSeekers": 4500
-    },
-    "iconLink": "https://example.com/icons/healthcare-icon.png"
   }
 ]

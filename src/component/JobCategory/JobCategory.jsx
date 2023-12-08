@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import "./JobCategory.css";
 import { useState } from "react";
+import Category from "../Category/Category";
 
 const JobCategory = () => {
    const [categories, setCategories] = useState([]);
@@ -9,8 +10,6 @@ const JobCategory = () => {
          .then((res) => res.json())
          .then((data) => setCategories(data));
    }, []);
-
-   console.log(categories);
 
    return (
       <section className="job-category">
@@ -24,42 +23,9 @@ const JobCategory = () => {
             </div>
 
             <div className="job-category-content">
-               <div className="category">
-                  <div className="icon-box">
-                     <img src="" alt="" />
-                  </div>
-                  <div>
-                     <h3>Account & Finance</h3>
-                     <p>300 Jobs Available</p>
-                  </div>
-               </div>
-               <div className="category">
-                  <div className="icon-box">
-                     <img src="" alt="" />
-                  </div>
-                  <div>
-                     <h3>Account & Finance</h3>
-                     <p>300 Jobs Available</p>
-                  </div>
-               </div>
-               <div className="category">
-                  <div className="icon-box">
-                     <img src="" alt="" />
-                  </div>
-                  <div>
-                     <h3>Account & Finance</h3>
-                     <p>300 Jobs Available</p>
-                  </div>
-               </div>
-               <div className="category">
-                  <div className="icon-box">
-                     <img src="" alt="" />
-                  </div>
-                  <div>
-                     <h3>Account & Finance</h3>
-                     <p>300 Jobs Available</p>
-                  </div>
-               </div>
+               {categories.map((element) => (
+                  <Category key={element.id} category={element}></Category>
+               ))}
             </div>
          </div>
       </section>

@@ -2,8 +2,8 @@
    padding: 12rem 0;
 }
 .job-category-content {
-   display: flex;
-   flex-wrap: wrap;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
    gap: 2.5rem;
    margin-top: 6rem;
 }
@@ -22,4 +22,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+}
+.icon-box img {
+   width: 4rem;
 }
