@@ -1,10 +1,9 @@
 import "./JobDetails.css";
-import Header from "./../Header/Header";
 
 const JobDetails = () => {
    return (
       <div>
-         <Header></Header>
+         <h1>Details Go here</h1>
       </div>
    );
 };

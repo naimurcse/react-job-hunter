@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import "./FeaturedJobs.css";
 import { useState } from "react";
 import FeaturedJob from "../FeaturedJob/FeaturedJob";
+import { Link } from "react-router-dom";
 
 const FeaturedJobs = () => {
    const [featuredJobs, setFeaturedJobs] = useState([]);
@@ -12,7 +13,7 @@ const FeaturedJobs = () => {
    }, []);
 
    const viewDetailsHandler = (job) => {
-      console.log(job);
+      <Link to={`/job/${job.id}`}></Link>;
    };
 
    //    console.log(featuredJobs);

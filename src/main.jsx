@@ -2,8 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Main from "./component/Home/Main";
-import Hero from "./component/Hero/Hero";
+import Main from "./component/Main/Main";
+import JobDetails from "./component/JobDetails/JobDetails";
+import Home from "./component/Home/Home";
 
 const router = createBrowserRouter([
    {
@@ -12,7 +13,15 @@ const router = createBrowserRouter([
       children: [
          {
             path: "/",
-            element: <Hero></Hero>,
+            element: <Home></Home>,
+         },
+         {
+            path: "/home",
+            element: <Home></Home>,
+         },
+         {
+            path: "/job/:jobId",
+            element: <JobDetails></JobDetails>,
          },
       ],
    },

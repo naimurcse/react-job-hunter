@@ -1,20 +1,18 @@
-import Header from "../Header/Header";
-import "./Main.css";
-import Hero from "./../Hero/Hero";
+import React from "react";
+import Hero from "../Hero/Hero";
 import JobCategory from "../JobCategory/JobCategory";
 import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 import Footer from "../Footer/Footer";
 
-const Main = () => {
+const Home = () => {
    return (
-      <>
-         <Header></Header>
+      <main>
          <Hero></Hero>
          <JobCategory></JobCategory>
          <FeaturedJobs></FeaturedJobs>
          <Footer></Footer>
-      </>
+      </main>
    );
 };
 
-export default Main;
+export default Home;
