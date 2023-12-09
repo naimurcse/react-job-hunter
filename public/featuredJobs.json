@@ -8,7 +8,12 @@
     "salary": "$100,000 - $120,000",
     "logoLink":"https://images.squarespace-cdn.com/content/v1/60953d6145302f7f3f140c11/41f6899e-d863-4e41-9adb-73a8605c1dde/Techco+logo+final-01.png",
     "isRemote": true,
-    "isFullTime": true
+    "isFullTime": true,
+    "jobDescription" : "We are seeking a skilled Software Engineer to join our dynamic team. The ideal candidate will be responsible for designing, developing, and maintaining high-quality software solutions.",
+    "jobResponsibility" : "Collaborate with cross-functional teams to understand project requirements ,Design and implement software solutions that meet business needs, Debug and resolve software defects, Participate in code reviews and contribute to the continuous improvement of the development process",
+    "educationalRequirement" : "Bachelor's degree in Computer Science or related field",
+    "experience":"2+ years of experience in software development"
+
   },
   {
     "id": 2,
@@ -19,18 +24,26 @@
     "salary": "$80,000 - $100,000",
     "logoLink":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png",
     "isRemote": false,
-    "isFullTime": true
+    "isFullTime": true,
+    "jobDescription" : "Join our creative team as a UX/UI Designer and contribute to the design and development of user-centric interfaces for our products.",
+    "jobResponsibility" : "Create wireframes, prototypes, and visual designs, Collaborate with cross-functional teams to gather and evaluate user feedback, Stay updated on industry trends and incorporate best practices into design processes",
+    "educationalRequirement" : "Bachelor's degree in Design, Human-Computer Interaction, or related field",
+    "experience":"3+ years of experience in UX/UI design"
   },
   {
     "id": 3,
     "img": "image3.jpg",
     "designation": "Data Scientist",
-    "companyName": "Data Corp",
+    "companyName": "Apple",
     "location": "Austin, TX",
     "salary": "$110,000 - $130,000",
-    "logoLink":"http://www.datacorp.net/images/logo.png",
+    "logoLink":"https://www.shutterstock.com/image-vector/galati-romania-april-29-2023-600nw-2295394661.jpg",
     "isRemote": true,
-    "isFullTime": true
+    "isFullTime": true,
+    "jobDescription" : "We are looking for a talented Data Scientist to join our team. The ideal candidate will play a crucial role in analyzing and interpreting complex data sets to inform business decisions.",
+    "jobResponsibility" : "Develop and implement machine learning models, Analyze large datasets to extract meaningful insights, Collaborate with cross-functional teams to understand business objectives",
+    "educationalRequirement" : "Master's or Ph.D. in Data Science, Statistics, or related field",
+    "experience":"4+ years of experience in data science"
   },
   {
     "id": 4,
@@ -41,7 +54,11 @@
     "salary": "$80,000",
     "logoLink":"https://images.squarespace-cdn.com/content/v1/60953d6145302f7f3f140c11/41f6899e-d863-4e41-9adb-73a8605c1dde/Techco+logo+final-01.png",
     "isRemote": true,
-    "isFullTime": true
+    "isFullTime": true,
+    "jobDescription" : "Join our innovative team as a Software Engineer and contribute to the development of cutting-edge software solutions.",
+    "jobResponsibility" : "Collaborate with cross-functional teams to define software requirements, Design and implement scalable and maintainable software, Conduct unit testing and participate in code reviews",
+    "educationalRequirement" : "Bachelor's degree in Computer Science or related field",
+    "experience":"2+ years of experience in software development"
   },
   {
     "id": 5,
@@ -52,7 +69,11 @@
     "salary": "$70,000",
     "logoLink":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/TOSHIBA_Logo.png/1200px-TOSHIBA_Logo.png",
     "isRemote": false,
-    "isFullTime": true
+    "isFullTime": true,
+    "jobDescription" : "Tushiba is looking for a creative and detail-oriented UX Designer to enhance the user experience of our products.",
+    "jobResponsibility" : "Create user personas and conduct user research, Design user interfaces and interactions, Collaborate with cross-functional teams to implement design solutions",
+    "educationalRequirement" : "Bachelor's degree in Design, Human-Computer Interaction, or related field",
+    "experience":"3+ years of experience in UX design"
   },
   {
     "id": 6,
@@ -63,7 +84,11 @@
     "salary": "$75,000",
     "logoLink":"https://www.wermac.org/dewebsite/logo/intel/intel_logo.png",
     "isRemote": true,
-    "isFullTime": false
+    "isFullTime": false,
+    "jobDescription" : "Intel. is seeking a Data Analyst to analyze and interpret complex data sets and contribute to data-driven decision-making.",
+    "jobResponsibility" : "Collect, clean, and analyze large datasets, Generate actionable insights and reports, Collaborate with business stakeholders to understand data requirements",
+    "educationalRequirement" : "Bachelor's degree in Statistics, Mathematics, or related field",
+    "experience":"2+ years of experience in data analysis"
   },
   {
     "id": 7,
@@ -74,7 +99,11 @@
     "salary": "$65,000",
      "logoLink":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/1024px-Microsoft_logo_%282012%29.svg.png",
     "isRemote": false,
-    "isFullTime": true
+    "isFullTime": true,
+    "jobDescription" : "Microsoft is looking for a creative and strategic Marketing Specialist to drive marketing initiatives and promote our products.",
+    "jobResponsibility" : "Develop and execute marketing strategies, Create engaging content for various channels, Collaborate with cross-functional teams to achieve marketing goals",
+    "educationalRequirement" : "Bachelor's degree in Marketing, Business, or related field",
+    "experience": "3+ years of experience in marketing"
   },
   {
     "id": 8,
@@ -85,6 +114,10 @@
     "salary": "$85,000",
     "logoLink":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcxalhPMlT7a62dhDBZrh_iYbdDliuUAhXJzHoEVhtJnTON1ivLR9bCueNDjDPdnjQXQ&usqp=CAU",
     "isRemote": true,
-    "isFullTime": true
+    "isFullTime": true,
+    "jobDescription" : "Join TESLA as a Network Engineer and contribute to the design and maintenance of our network infrastructure.",
+    "jobResponsibility" : "Design and implement scalable network solutions, Troubleshoot and resolve network issues, Collaborate with cross-functional teams on network-related projects",
+    "educationalRequirement" : "Bachelor's degree in Computer Science, Information Technology, or related field",
+    "experience":"4+ years of experience in network engineering"
   }
 ]
