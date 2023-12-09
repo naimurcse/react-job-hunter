@@ -2,7 +2,7 @@ import "./FeaturedJob.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faSackDollar } from "@fortawesome/free-solid-svg-icons";
 
-const FeaturedJob = ({ featuredJob }) => {
+const FeaturedJob = ({ featuredJob, viewDetailsHandler }) => {
    const { id, img, designation, companyName, location, salary, logoLink, isFullTime, isRemote } =
       featuredJob;
    return (
@@ -34,7 +34,12 @@ const FeaturedJob = ({ featuredJob }) => {
             </div>
          </div>
 
-         <button className="btn btn-medium btn-primary">View Details</button>
+         <button
+            className="btn btn-medium btn-primary"
+            onClick={() => viewDetailsHandler(featuredJob)}
+         >
+            View Details
+         </button>
       </div>
    );
 };

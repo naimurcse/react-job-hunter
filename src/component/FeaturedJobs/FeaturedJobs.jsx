@@ -11,6 +11,10 @@ const FeaturedJobs = () => {
          .then((data) => setFeaturedJobs(data));
    }, []);
 
+   const viewDetailsHandler = (job) => {
+      console.log(job);
+   };
+
    //    console.log(featuredJobs);
 
    return (
@@ -25,7 +29,11 @@ const FeaturedJobs = () => {
             </div>
             <div className="featured-jobs-content">
                {featuredJobs.map((featuredJob) => (
-                  <FeaturedJob key={featuredJob.id} featuredJob={featuredJob}></FeaturedJob>
+                  <FeaturedJob
+                     key={featuredJob.id}
+                     featuredJob={featuredJob}
+                     viewDetailsHandler={viewDetailsHandler}
+                  ></FeaturedJob>
                ))}
             </div>
             <div className="text-center">
