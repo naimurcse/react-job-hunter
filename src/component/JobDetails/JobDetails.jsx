@@ -1,10 +1,12 @@
+import InnerpageHeader from "../InnerpageHeader/InnerpageHeader";
 import "./JobDetails.css";
 
 const JobDetails = () => {
    return (
-      <div>
+      <>
+         <InnerpageHeader></InnerpageHeader>
          <h1>Details Go here</h1>
-      </div>
+      </>
    );
 };
 

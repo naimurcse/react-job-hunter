@@ -1,0 +1,8 @@
+.inner-header {
+   background-color: var(--color-dark-grey);
+   background-image: url(../../assets/inner-header1.png), url(../../assets/inner-header2.png);
+   background-repeat: no-repeat;
+   background-position: right top, left bottom;
+   padding: 6rem 0;
+   text-align: center;
+}
