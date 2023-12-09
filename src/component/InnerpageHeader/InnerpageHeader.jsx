@@ -1,10 +1,10 @@
 import "./InnerpageHeader.css";
 
-const InnerpageHeader = () => {
+const InnerpageHeader = ({ children }) => {
    return (
       <div className="inner-header">
          <div className="container">
-            <h2>Inner Page Header</h2>
+            <h2>{children}</h2>
          </div>
       </div>
    );
